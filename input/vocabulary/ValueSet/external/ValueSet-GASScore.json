@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "gas-score",
+  "url" : "http://mtnlotus.com/fhir/pco-goals/ValueSet/gas-score",
+  "version" : "0.1.0",
+  "name": "GASScore",
+  "title" : "Goal attainment scaling score",
+  "status" : "active",
+  "date" : "2024-05-21T00:00:00+10:00",
+  "description" : "Goal attainment scaling score.",
+  "copyright" : "TBD",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "gas-patient-baseline",
+            "display" : "Baseline goal attainment scaling score"
+          },
+          {
+            "code" : "gas-patient-score",
+            "display" : "Patient follow-up goal attainment scaling score"
+          },
+          {
+            "code" : "gas-practitioner-score",
+            "display" : "Practitioner follow-up goal attainment scaling score"
+          },
+          {
+            "code" : "gas-caregiver-score",
+            "display" : "Caregiver follow-up goal attainment scaling score"
+          }
+        ]
+      }
+    ]
+  }
+}

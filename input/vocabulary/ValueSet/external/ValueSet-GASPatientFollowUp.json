@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "gas-patient-followup",
+  "url" : "http://mtnlotus.com/fhir/pco-goals/ValueSet/gas-patient-followup",
+  "version" : "0.1.0",
+  "name": "GASPatientFollowUp",
+  "title" : "Patient follow-up goal attainment scaling score",
+  "status" : "active",
+  "date" : "2024-05-21T00:00:00+10:00",
+  "description" : "Patient follow-up goal attainment scaling score including five levels of patient-reported goal progress.",
+  "copyright" : "TBD",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "gas-much-better-than-expected",
+            "display" : "Much better than expected"
+          },
+          {
+            "code" : "gas-better-than-expected",
+            "display" : "Better than expected"
+          },
+          {
+            "code" : "gas-expected-outcome",
+            "display" : "Expected outcome"
+          },
+          {
+            "code" : "gas-less-than-expected",
+            "display" : "Less than expected"
+          },
+          {
+            "code" : "gas-much-less-than-expected",
+            "display" : "Much less than expected"
+          }
+        ]
+      }
+    ]
+  }
+}

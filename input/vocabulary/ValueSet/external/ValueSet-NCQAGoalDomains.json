@@ -1,0 +1,69 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ncqa-goal=domains",
+  "url" : "http://mtnlotus.com/fhir/pco-goals/ValueSet/ncqa-goal=domains",
+  "version" : "0.1.0",
+  "name": "NCQAGoalDomains",
+  "title" : "NCQA Goal Domains",
+  "status" : "active",
+  "date" : "2024-05-21T00:00:00+10:00",
+  "description" : "NCQA Goal Domains used to classify PCO goals.",
+  "copyright" : "TBD",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://ncqa.org/fhir/pco-goals/CodeSystem/goal-domain",
+        "concept" : [
+          {
+            "code" : "housing",
+            "display" : "Housing"
+          },
+          {
+            "code" : "access-to-services",
+            "display" : "Access To Services"
+          },
+          {
+            "code" : "caregiver-needs",
+            "display" : "Caregiver Needs"
+          },
+          {
+            "code" : "end-of-life",
+            "display" : "End Of Life"
+          },
+          {
+            "code" : "independence",
+            "display" : "Independence"
+          },
+          {
+            "code" : "legal",
+            "display" : "Legal"
+          },
+          {
+            "code" : "managing-conditions",
+            "display" : "Managing Conditions"
+          },
+          {
+            "code" : "medication-management",
+            "display" : "Medication Management"
+          },
+          {
+            "code" : "improving-health-and-wellness",
+            "display" : "Improving Health And Wellness"
+          },
+          {
+            "code": "physical-function",
+            "display" : "Physical Function"
+          },
+          {
+            "code" : "social-functioning",
+            "display" : "Social Functioning"
+          },
+          {
+            "code" : "emotional-and-mental-health",
+            "display" : "Emotional And Mental Health"
+          }
+        ]
+      }
+    ]
+  }
+}
