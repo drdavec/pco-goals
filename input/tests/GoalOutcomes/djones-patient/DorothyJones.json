@@ -364,6 +364,55 @@
     {
       "request" : {
         "method" : "PUT",
+        "url" : "Goal/djones-goal-pain-level"
+      },
+      "resource" : {
+        "achievementStatus" : {
+          "coding" : [
+            {
+              "code" : "in-progress",
+              "display" : "In Progress",
+              "system" : "http://terminology.hl7.org/CodeSystem/goal-achievement"
+            }
+          ],
+          "text" : "In Progress"
+        },
+        "addresses" : [
+          {
+            "display" : "Osteoarthritis of knee (disorder)",
+            "reference" : "Condition/djones-cond-osteoarthritis"
+          }
+        ],
+        "description" : {
+          "text" : "Maintain pain level below 5 while walking"
+        },
+        "expressedBy" : {
+          "display" : "Dorothy Jones",
+          "reference" : "Patient/djones-patient"
+        },
+        "id" : "djones-goal-pain-level",
+        "lifecycleStatus" : "active",
+        "meta" : {
+          "profile" : [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-goal"
+          ]
+        },
+        "resourceType" : "Goal",
+        "startDate" : "2024-02-15",
+        "subject" : {
+          "display" : "Dorothy Jones",
+          "reference" : "Patient/djones-patient"
+        },
+        "target" : [
+          {
+            "dueDate" : "2024-06-30"
+          }
+        ]
+      }
+    },
+    {
+      "request" : {
+        "method" : "PUT",
         "url" : "CarePlan/djones-careplan-ppc"
       },
       "resource" : {
